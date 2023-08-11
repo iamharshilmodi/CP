@@ -35,41 +35,19 @@ const ll N = 1e6;
 
 
 
-class a{
-    
-public:
-    void pr()
-    {
-        cout<<"in a\n";
-    }
-};
 
-class b: public a{
-    
-public:
-    void pr()
-    {
-        cout<<"b\n";
-    }
-};
-
-class c: public b{
-    
-public:
-    // void pr()
-    // {
-    //     cout<<"c\n";
-    // }
-};
 
 
 
 void solve(){
 
+ll n,out=0;
+cin>>n;
 
 
-c obj;
-obj.pr();
+
+
+
 
 
 
